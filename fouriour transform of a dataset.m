@@ -2,7 +2,7 @@ clear all;
 close all;
 clc;
 
-data = load('monthssn.dat');
+data = load('monthssn.dat'); % data file 
 
 x = data(:, 2);  % 2nd column
 y = data(:, 4);  % 4th column
